@@ -1,0 +1,26 @@
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(30, 30, 30, 0.9); /* Background color of the scrollbar track */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(50, 50, 50, 0.8); /* Color of the scrollbar thumb */
+    border-radius: 10px;
+    border: 2px solid rgba(30, 30, 30, 0.9); /* Adds a border to match the track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(70, 70, 70, 0.9); /* Darker color on hover for better visibility */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(50, 50, 50, 0.8) rgba(30, 30, 30, 0.9);
+}
+        

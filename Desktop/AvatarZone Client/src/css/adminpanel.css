@@ -1,0 +1,16 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+}
+
+.table .btn {
+    font-size: 0.875rem;
+}
+
+.table .btn.btn-secondary {
+    margin-top: 5px;
+}
+    

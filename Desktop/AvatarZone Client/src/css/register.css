@@ -1,0 +1,135 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #ffffff;
+}
+
+/* Burger Menu Styles */
+.custom-toggler .navbar-toggler-icon {
+    border: none;
+}
+
+
+
+.custom-toggler:focus {
+box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 991px) {
+.navbar-collapse {
+    background-color: rgba(18, 18, 18, 0.95);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.navbar-nav .nav-item {
+    margin-bottom: 0.5rem;
+}
+
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+}
+.service-header,
+.registration-header {
+    padding: 5rem 0;
+}
+
+.service-header h1,
+.registration-header h1 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.service-header p,
+.registration-header p {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Existing styles for service plans... */
+
+.registration-form {
+    padding-bottom: 5rem;
+}
+
+.registration-form form {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.registration-form form:hover {
+    transform: translateY(-5px);
+}
+
+.registration-form .form-label {
+    color: #121212;
+    font-weight: 500;
+}
+
+.registration-form .form-control {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.registration-form .form-control:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+}
+
+.registration-form .btn-primary {
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.registration-form .btn-primary:hover {
+    background-color: #3a7bc8;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 576px) {
+    .service-header,
+    .registration-header {
+        padding: 3rem 0;
+    }
+
+    .registration-form form {
+        padding: 1.5rem;
+    }
+}   
+
+.nav-item{
+    color: white;
+}
